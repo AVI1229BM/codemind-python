@@ -1,7 +1,7 @@
-def mani(n):
-    for i in range(2,(n-2)//2):
+def prime(n):
+    for i in range(2,n//2):
         if n%i==0:
-            return("not a prime")
-    return("prime")
+            return('not a prime')
+    return('prime')
 n=int(input())
-print(mani(n))
+print(prime(n))        
